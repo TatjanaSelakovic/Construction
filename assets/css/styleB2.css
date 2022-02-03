@@ -1,0 +1,613 @@
+.companyInfo li {
+    display: inline-block;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+
+.companyInfo li:last-child {
+    border-right: 1px solid black;
+}
+
+.companyInfo i {
+    color: orange;
+}
+
+ul.companyIcons li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul.companyIcons {
+    text-align: right;
+}
+
+.companyIcons li:first-child {
+    border-left: 1px solid black;
+}
+
+.companyIcons li:last-child {
+    border-right: 1px solid black;
+}
+
+.navLogo .navbar-brand img{
+    width: 200px;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    border: none;
+    color: orange;
+}
+
+.mainConstruction{
+    background: url("../images/home-parallax.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 90px 0 150px 0;
+    text-align: center;
+    color: white;
+}
+
+.mainConstruction h1 {
+    font-size: 70px;
+}
+
+.mainLinks a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 0 15px;
+    width: 160px;
+}
+
+.mainLinks a:hover {
+    border: 1px solid orange;
+    background: orange;
+}
+
+span.miniBorder {
+    display: block;
+    width: 70px;
+    height: 2px;
+    margin: 15px 0;
+    background: orange;
+}
+
+.ourMision {
+    padding: 80px 0;
+}
+
+.ourMision p {
+    margin-top: 30px;
+}
+
+.yellowNumbers{
+    background: orange;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.yellowNumbers .container {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-bottom: 50px;
+}
+
+.yellowNumbers .col-md-3 {
+    padding-top: 30px;
+}
+
+.yellowNumbers .col-md-3:nth-child(2){
+    border-left: 1px solid white;
+}
+
+.yellowNumbers .col-md-3:nth-child(3){
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.yellowNumbers h2 {
+    font-size: 70px;
+}
+
+
+.headingServices h2 {
+    text-align: center;
+    padding: 70px 0;
+    font-size: 50px;
+}
+
+.textRight{
+    text-align: right;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+.ourServices {
+    padding-bottom: 80px;
+}
+
+.phoneServices ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.phoneServices a {
+    text-decoration: none;
+    color: black;
+}
+
+.phoneServices a:hover {
+    color: orange;
+}
+
+.phoneServices p {
+    padding: 20px 0px;
+}
+
+.paddingServices{
+    padding-top: 50px;
+}
+
+.picRight li{
+    position: relative;
+    padding-right: 80px;
+}
+
+.picRight i{
+position: absolute;
+right: 0;
+top: 5;
+top: 15px;
+font-size: 50px;
+color: orange;
+}
+
+.picLeft li{
+    position: relative;
+    padding-left: 80px;
+}
+
+.picLeft i{
+    position: absolute;
+left: 0;
+top: 5;
+top: 15px;
+font-size: 50px;
+color: orange;
+}
+
+
+
+.circleBorder {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 6px solid orange;
+    border-radius: 50%;
+    margin: auto;
+}
+
+h2.circleBorder {
+    margin-bottom: 30px;
+    font-size: 40px;
+    padding: 80px;
+}
+
+.yellowCircles {
+    padding: 90px 0;
+}
+
+.yellowCircles span {
+    color: gray;
+}
+
+.latestHeading h2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 60px 0;
+}
+
+.firstBlog a {
+    text-decoration: none;
+    color: black;
+}
+
+.firstBlog a:hover {
+    color: orange;
+}
+
+.firstBlog h4 {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.latestFooter i {
+    color: orange;
+    font-size: 20px;
+}
+
+.latestFooter span {
+    font-size: 12px;
+    padding-left: 3px;
+    color: gray;
+}
+
+.latestFooter {
+    padding-top: 20px;
+}
+
+.latestFooter {
+    padding-top: 20px;
+}
+
+.latestFooter a {
+    color: orange;
+}
+
+.latestFooter a:hover {
+    color: gray;
+}
+
+.latestFromTheBlog {
+    padding-bottom: 100px;
+}
+
+.chooseText {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.chooseText h2 {
+    font-size: 40px;
+}
+
+.chooseText p {
+    color: gray;
+    padding-top: 20px;
+}
+
+.choosePrices ul {
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: white;
+    padding: 0;
+}
+
+.choosePrices li {
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+
+.choosePrices h5 {
+    color: gray;
+}
+
+li.chooseLink {
+    border-bottom: none;
+    background: orange;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+li.chooseLink a {
+    color: white;
+    text-decoration: none;
+}
+
+.choosePrices ul:hover {
+    background: orange;
+}
+
+.choosePrices ul:hover .chooseLink {
+    background: white;
+    color: orange;
+}
+
+.choosePrices ul:hover .chooseLink a {
+    color: orange;
+}
+
+.mainSubscribe {
+    width: 670px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 60px 0 150px 0;
+}
+
+.mainSubscribe h2 {
+    font-size: 50px;
+}
+
+.mainSubscribe p {
+    padding: 20px 0;
+}
+
+.subscribeNewsletter{
+    background: url("../images/image-5.jpg");
+    background-position: inherit;
+    background-size: cover;
+}
+
+.mainSubscribe input {
+    border-radius: 30px;
+    padding: 25px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+}
+
+.mainSubscribe button {
+    background: orange;
+    border-radius: 30px;
+    padding: 14px 30px;
+    border: 2px solid orange;
+}
+
+.mainSubscribe button:hover {
+    color: orange;
+    border: 2px solid orange;
+    background: transparent;
+}
+
+.clientsHeading h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.paddingBottom{
+    padding-bottom: 80px;
+}
+
+.testimonialsText {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.testimonialsText h2 {
+    font-size: 50px;
+}
+
+.sliderMembers {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sliderButton a span {
+    background: black;
+}
+
+.sliderButton {
+    position: absolute;
+    width: 150px;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.sliderButton i{
+    color: black;
+    font-size: 30px;
+}
+
+.carousel-inner.sliderImg {
+    padding-bottom: 50px;
+}
+
+.textSlider h5 {
+    padding-top: 20px;
+    margin: 0;
+}
+
+.textSlider span {
+    color: gray;
+}
+
+p {
+    padding-top: 20px;
+}
+
+
+.firstFooter img {
+    width: 250px;
+}
+
+.constructionFooter ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.secondFooter li {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.secondFooter i {
+    position: absolute;
+    left: 0;
+    top: 9px;
+    color: orange;
+    font-size: 10px;
+}
+
+.thirdFooter a {
+    color: orange;
+    text-decoration: none;
+}
+
+.thirdFooter span {
+    color: gray;
+    font-size: 15px;
+}
+
+.thirdFooter h3 {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+form.formSub {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 20px;
+}
+
+.formInput input {
+    border: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.formButton button {
+    font-size: 10px;
+    width: 100px;
+    height: 38px;
+    border-radius: 20px;
+    background: orange;
+    color: white;
+    border: 2px solid orange;
+}
+
+.formButton button:hover{
+    background: white;
+    color: orange;
+    border: 2px solid orange;
+}
+
+.formButton button {
+    margin: 0 !important;
+}
+
+ul.footerIcons {
+    list-style-type: none;
+}
+
+ul.footerIcons {
+    list-style-type: none;
+}
+
+
+.firstFooter img {
+    padding-bottom: 10px;
+}
+
+.firstFooter li:nth-child(2) {
+    padding: 20px 40px 20px 0;
+    color: white;
+}
+
+.constructionFooter {
+    background: #00002c;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.firstFooter span {
+    color: wheat;
+}
+
+.firstFooterLinks li:nth-child(2) {padding: 0;}
+
+.firstFooterLinks li {
+    color: white;
+}
+
+.firstFooterLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.firstFooterLinks li a:hover {
+    color: orange;
+}
+
+.secondFooter h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.secondFooter a {
+    text-decoration: none;
+    color: orange;
+}
+
+.secondFooter a:hover {
+    color: white;
+}
+
+.secondFooter ul {
+    padding-top: 20px;
+}
+
+.fourthFooter h3 {
+    color: orange;
+}
+
+.fourthFooter span {
+    color: white;
+}
+
+.fourthFooter p {
+    color: white;
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+.iconLast {
+    padding-top: 30px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.iconLast i{
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: 37px;
+    color: blue;
+}
+
+i.colorOrange{
+    color: orange;
+}
+
+ul.footerIcons li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.footerIcons {
+    text-align: right;
+}
+
+.footerPage a {
+    color: black;
+    text-decoration: none;
+}
+
+.footerPage a:hover {
+    color: orange;
+}
+
+.footerPage {
+    padding-top: 20px;
+    margin-bottom: none;
+}
